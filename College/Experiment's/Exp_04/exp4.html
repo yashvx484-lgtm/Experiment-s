@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Booking Webiste</title>
+  </head>
+  <body>
+    <table border="1" cellspacing="0" cellpadding="25" align="center">
+      <tr>
+        <td>
+          <h1>HOTEL ROOM BOOKING FORM</h1>
+          <hr width="100%">
+          <hr>
+          <br>
+          
+          <form>
+            <div>
+              <label
+                for="fullName"
+                style="font-family: Verdana, Geneva, Tahoma, sans-serif"
+                >Full Name:</label
+              >
+              <input type="text" id="fullName" name="fullName" required style="margin-left: 5px;">
+            </div>
+            <div> 
+              <label
+                for="email"
+                style="font-family: Verdana, Geneva, Tahoma, sans-serif;"
+                >Email:</label
+              > 
+              <input type="text" id="email" name="email" required style="margin-left: 10px;">
+            </div>
+            <div>
+              <label
+                for="phone"
+                style="font-family: Verdana, Geneva, Tahoma, sans-serif;"
+                >Phone:</label
+              > 
+              <input type="text" id="phone" name="phone" required style="margin-left: 5px;">
+            </div>
+            <div>
+                <label
+                    for="checkin"
+                    style="font-family: Verdana, Geneva, Tahoma, sans-serif;"
+                    >Check-In Date:</label
+                >
+                <input type="date" id="checkin" name="checkin" required style="margin-left: 15px;">
+            </div>
+            <div>
+                <label
+                    for="checkout"
+                    style="font-family: Verdana, Geneva, Tahoma, sans-serif;"
+                    >Check-Out Date:</label
+                >
+                <input type="date" id="checkout" name="checkout" required style="margin-left: 3px;">
+            </div>
+            <div>
+                <label
+                    for="roomType"
+                    style="font-family: Verdana, Geneva, Tahoma, sans-serif;"
+                    >Room Type:</label
+                >
+                <select id="roomType" name="roomType" required style="margin-left: 5px;">
+                    <option value="">Select a room type</option>
+                    <option value="single">Single</option>
+                    <option value="double">Double</option>
+                    <option value="suite">Suite</option>
+                </select>
+            </div>
+            <div>
+                <label for="numberofguest" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Number of Guests:</label>
+                <input type="text" id="numberofguest" name="numberofguest" required style="margin-left: 4px;">
+            </div>
+            <br><br>
+            <div style="text-align: center;">
+                <label for="specialrequest" style="font-family: Verdana, Geneva, Tahoma, sans-serif;"> Special Request:</label>
+               <br> <textarea name="specialrequest" id="specialrequest" rows="5px" cols="50px"></textarea>
+            </div>
+            <br>
+            <div style="text-align: center;">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+          </form>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
